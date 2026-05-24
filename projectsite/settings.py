@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-v3=l_!cw2+tx0kn@+v5pze&gc@^t1m+3s=10^@(_n!#+_8lo6_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['mycka.pythonanywhere.com', '127.0.0.1']
+ALLOWED_HOSTS = ['mycka.pythonanywhere.com', '127.0.0.1', 'localhost']
 
 
 # Application definition
@@ -47,7 +47,6 @@ INSTALLED_APPS = [
     'allauth.socialaccount.providers.google',
     'allauth.socialaccount.providers.github',
     'rest_framework',
-    'api',
     'rest_framework.authtoken',
 ]
 

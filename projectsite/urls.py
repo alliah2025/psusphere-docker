@@ -77,6 +77,5 @@ urlpatterns = [
     path('programs/<pk>/delete/', ProgramDeleteView.as_view(), name='program-delete'),
 
     path('admin/', admin.site.urls),
-    path('api/', include('api.urls')),
 ]
 
